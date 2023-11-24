@@ -1,7 +1,45 @@
-const recipeBtn = document.querySelectorAll('recipe-btn');
-const main = document.querySelector('main');
+const kladdkaka = document.getElementById('kladdkaka');
+const lussekatt = document.getElementById('lussekatt');
+const silviakaka = document.getElementById('silviakaka');
 
-const functions = [kladdkaka(), lussekatt(), silviakaka()];
+kladdkaka.addEventListener('click', function () {
+    recipe();
+});
+lussekatt.addEventListener('click', function () {
+    recipe();
+});
+silviakaka.addEventListener('click', function () {
+    recipe();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//const main = document.querySelector('main');
+//const functions = [kladdkaka(), lussekatt(), silviakaka()];
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
