@@ -2,8 +2,12 @@ const kladdkaka = document.getElementById('kladdkaka');
 const lussekatt = document.getElementById('lussekatt');
 const silviakaka = document.getElementById('silviakaka');
 
+console.log('hej')
+
+
 kladdkaka.addEventListener('click', function () {
     recipe();
+    
 });
 lussekatt.addEventListener('click', function () {
     recipe();
