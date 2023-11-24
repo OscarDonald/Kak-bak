@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Receptsamlingen</title>
   <link rel="stylesheet" href="./css/main.css">
@@ -21,23 +22,20 @@
       <button class="recipe-btn btn">Smör</button>
       <button class="recipe-btn btn">Smör</button>
 
-    <!-- Lägg eventuellt till fler knappar för andra recept här -->
+      <!-- Lägg eventuellt till fler knappar för andra recept här -->
     </nav>
   </div>
-
-    <div class="main">
+  <main>
       <h2>Välkommen till Receptsamlingen!</h2>
-  
-    <p><strong>Portioner:</strong> <input type="number" id="portion-count" value="1" min="1"></p>
-    <button class="btn" id="update-portions">Uppdatera portioner</button>
-  
-    <div id="recipe-container"></div>
-  </div>
-
+      <div class="flex portoins-container">
+        <p><strong>Portioner:</strong> <input type="number" id="portion-count" value="1" min="1"></p>
+        <button class="btn" id="update-portions">Uppdatera portioner</button>
+      </div>
+      <div id="recipe-container"></div>
+  </main>
   <script src="./js/main.js"></script>
 </body>
 
 </html>
 
-<!-- font-family: 'Bebas Neue', sans-serif;
-font-family: 'Playfair Display', serif; -->
+<!--  -->
