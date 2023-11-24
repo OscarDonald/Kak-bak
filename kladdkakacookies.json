@@ -10,6 +10,7 @@
     {"name": "Salt", "baseAmount": 1, "unit": "krm"},
     {"name": "Vetemjöl", "baseAmount": 2, "unit": "dl"}
 ],
+
 "intructions":[
     "175 °C i mitten av ugnen i ca 12-13 minuter med över- och undervärme",
     "Smält smör i en kastrull på svag värme.",
