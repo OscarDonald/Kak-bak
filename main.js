@@ -1,19 +1,25 @@
 const kladdkaka = document.getElementById('kladdkaka');
 const lussekatt = document.getElementById('lussekatt');
 const silviakaka = document.getElementById('silviakaka');
+const recipeContainer = document.getElementById('recipe-container');
 
-console.log('hej')
+
 
 
 kladdkaka.addEventListener('click', function () {
-    recipe();
+    recipeContainer.innerHTML = '';  
+    recipeContainer.innerHTML = getRecipes(1);
+    
     
 });
 lussekatt.addEventListener('click', function () {
-    recipe();
+    recipeContainer.innerHTML = '';
+    recipeContainer.innerHTML = getRecipes(0);
 });
+
 silviakaka.addEventListener('click', function () {
-    recipe();
+    recipeContainer.innerHTML = '';
+    recipeContainer.innerHTML = getRecipes(2);
 });
 
 
