@@ -52,64 +52,64 @@
           ]
        }
     ]
- },
+ ,
     "silviakaka": 
         {
             "vaniljkaka": [
                 {
-                    "ingridient": "Ägg",
+                    "ingredient": "Ägg",
                     "baseAmount": 4,
                     "unit": "st"
                 },
                 {
-                    "ingridient": "Strösocker",
+                    "ingredient": "Strösocker",
                     "baseAmount": 4,
                     "unit": "dl"
                 },
                 {
-                    "ingridient": "Vetemjöl",
+                    "ingredient": "Vetemjöl",
                     "baseAmount": 4,
                     "unit": "dl"
                 },
                 {
-                    "ingridient": "Bakpulver",
+                    "ingredient": "Bakpulver",
                     "baseAmount": 1,
                     "unit": "msk"
                 },
                 {
-                    "ingridient": "Vaniljsocker",
+                    "ingredient": "Vaniljsocker",
                     "baseAmount": 1,
                     "unit": "msk"
                 },
                 {
-                    "ingridient": "Kokhett vatten",
+                    "ingredient": "Kokhett vatten",
                     "baseAmount": 2,
                     "unit": "dl"
                 }
             ],
            "glasyr": [
                 {
-                    "ingridient": "Smör",
+                    "ingredient": "Smör",
                     "baseAmount": 200,
                     "unit": "g"
                 },
                 {
-                    "ingridient": "Florsocker",
+                    "ingredient": "Florsocker",
                     "baseAmount": 3,
                     "unit": "dl"
                 },
                 {
-                    "ingridient": "Vaniljsocker",
+                    "ingredient": "Vaniljsocker",
                     "baseAmount": 1,
                     "unit": "msk"
                 },
                 {
-                    "ingridient": "Äggulor",
+                    "ingredient": "Äggulor",
                     "baseAmount": 3,
                     "unit": "st"
                 },
                 {
-                   "ingridient": "Kokosflingor (för garnering)",
+                   "ingredient": "Kokosflingor (för garnering)",
                     "baseAmount": 0.5,
                     "unit": "dl"
                 }
