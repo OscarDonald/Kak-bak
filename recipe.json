@@ -1,29 +1,92 @@
-{"recipes":
 
-    {"recipeName": "lussekatter",
-    "portions": 24,
-    "ingredients": [
-        {"name": "jäst", "baseAmount": 50, "unit": "g"},
-        {"name": "standardmjölk", "baseAmount": 5, "unit": "dl"},
-        {"name": "majonnäs", "baseAmount": 200, "unit": "g"},
-        {"name": "saffran", "baseAmount": 1.5, "unit": "g"},
-        {"name": "strösocker", "baseAmount": 2, "unit": "dl"},
-        {"name": "vetemjöl special", "baseAmount": 1, "unit": "kg"},
-        {"name": "ägg", "baseAmount": 1, "unit": "st"},
-        {"name": "russin", "baseAmount": 50, "unit": "g"}
-    ],
-    "instructions":[
-        "Smula sönder jästen i degbunken.",
-        "Värm mjölken till 37 grader C, och häll ner saffran. Låt den stå och dra 2 min. Var noga med att vätskan inte blir för varm, jästen dör när det är över 48 grader.",
-        "Häll blandningen över jästen så att den löser sig.",
-        "Tillsätt socker, majonnäs (ger en saftigare deg), och nästan allt mjöl.",
-        "Arbeta degen kraftigt så att den blir blank och smidig och nästan släpper degbunken. För hand tar det ca 10 minuter och i en hushållsassistent ca 5 minuter.",
-        "Strö mjöl över degen. Täck den med bakduk eller plastfolie. Låt den jäsa övertäckt på varm och dragfri plats, till dubbel storlek, ca 40 minuter. Täcker man bunken med plastfolie istället för bakduk bidrar det till att fukten stannar i degen och det jäser bättre.",
-        "Sätt ugnen på 250 grader om du ska baka bullar och 225 grader om du gör längder.",
-        "Ta upp degen på mjölat bakduk och knåda degen smidig.Baka ut till lussekatter, traditionella julbröd, längder eller kransar.",
-        "Lägg det utbakade brödet på plåtar med bakplåtspapper. Lägg på bakduk och låt brödet jäsa 20-40 minuter. Pensla med ägg och garnera med russin eller pärlsocker och hackad mandel om du gör längder.",
-        "Grädda bullarna i mitten av ugnen 5-8 minuter. Kransar eller längder gräddas 15-20 minuter."
-    ]
-    }
+{"lussekatter":
+[
+    {"ingredient": "jäst", "baseAmount": 50, "unit": "g"},
+    {"ingredient": "standardmjölk", "baseAmount": 5, "unit": "dl"},
+    {"ingredient": "majonnäs", "baseAmount": 200, "unit": "g"},
+    {"ingredient": "saffran", "baseAmount": 1.5, "unit": "g"},
+    {"ingredient": "strösocker", "baseAmount": 2, "unit": "dl"},
+    {"ingredient": "vetemjöl special", "baseAmount": 1, "unit": "kg"},
+    {"ingredient": "ägg", "baseAmount": 1, "unit": "st"},
+    {"ingredient": "russin", "baseAmount": 50, "unit": "g"}
+],
+"lussekatter-description":[
+    "Smula sönder jästen i degbunken.",
+    "Värm mjölken till 37 grader C, och häll ner saffran. Låt den stå och dra 2 min. Var noga med att vätskan inte blir för varm, jästen dör när det är över 48 grader.",
+    "Häll blandningen över jästen så att den löser sig.",
+    "Tillsätt socker, majonnäs (ger en saftigare deg), och nästan allt mjöl.",
+    "Arbeta degen kraftigt så att den blir blank och smidig och nästan släpper degbunken. För hand tar det ca 10 minuter och i en hushållsassistent ca 5 minuter.",
+    "Strö mjöl över degen. Täck den med bakduk eller plastfolie. Låt den jäsa övertäckt på varm och dragfri plats, till dubbel storlek, ca 40 minuter. Täcker man bunken med plastfolie istället för bakduk bidrar det till att fukten stannar i degen och det jäser bättre.",
+    "Sätt ugnen på 250 grader om du ska baka bullar och 225 grader om du gör längder.",
+    "Ta upp degen på mjölat bakduk och knåda degen smidig.Baka ut till lussekatter, traditionella julbröd, längder eller kransar.",
+    "Lägg det utbakade brödet på plåtar med bakplåtspapper. Lägg på bakduk och låt brödet jäsa 20-40 minuter. Pensla med ägg och garnera med russin eller pärlsocker och hackad mandel om du gör längder.",
+    "Grädda bullarna i mitten av ugnen 5-8 minuter. Kransar eller längder gräddas 15-20 minuter."
+
+],
+
+    "silviakaka": 
+        {
+            "vaniljkaka": [
+                {
+                    "ingridient": "Ägg",
+                    "baseAmount": 4,
+                    "unit": "st"
+                },
+                {
+                    "ingridient": "Strösocker",
+                    "baseAmount": 4,
+                    "unit": "dl"
+                },
+                {
+                    "ingridient": "Vetemjöl",
+                    "baseAmount": 4,
+                    "unit": "dl"
+                },
+                {
+                    "ingridient": "Bakpulver",
+                    "baseAmount": 1,
+                    "unit": "msk"
+                },
+                {
+                    "ingridient": "Vaniljsocker",
+                    "baseAmount": 1,
+                    "unit": "msk"
+                },
+                {
+                    "ingridient": "Kokhett vatten",
+                    "baseAmount": 2,
+                    "unit": "dl"
+                }
+            ],
+           "glasyr": [
+                {
+                    "ingridient": "Smör",
+                    "baseAmount": 200,
+                    "unit": "g"
+                },
+                {
+                    "ingridient": "Florsocker",
+                    "baseAmount": 3,
+                    "unit": "dl"
+                },
+                {
+                    "ingridient": "Vaniljsocker",
+                    "baseAmount": 1,
+                    "unit": "msk"
+                },
+                {
+                    "ingridient": "Äggulor",
+                    "baseAmount": 3,
+                    "unit": "st"
+                },
+                {
+                   "ingridient": "Kokosflingor (för garnering)",
+                    "baseAmount": 0.5,
+                    "unit": "dl"
+                }
+            ], "steps": [
+                "Sätt ugnen på 175 grader (över- och undervärme) och täck din långpanna med bakplåtspapper.", "Börja med att göra kakan. Vispa ägg och strösocker riktigt vitt och pösigt med elvisp i en bunke.", "Sikta ner vetemjöl, bakpulver och vaniljsocker. Vänd försiktigt ihop till en jämn smet med slickepott.", "Tillsätt det varma vattnet och vänd försiktigt ihop till en jämn smet.", "Häll upp smeten i formen och grädda kakan i nedre delen av ugnen i ca 30 minuter eller tills en sticka kommer ut torr från kakan. Låt kakan svalna helt och hållet innan du toppar med glasyr.", "För att göra glasyren så smälter du smöret i en kastrull. Ha sedan ner florsocker och vaniljsocker. Blanda ihop och låt puttra på låg värme i en minut.", "Låt glasyren svalna innan du häller den på kakan. När glasyren på kakan börjat stelna lite kan du garnera med kokosflingor.", "Servera direkt och njut eller förvara i lufttät burk eller inplastad i kylskåpet."
+            ]
+           
+        }
 }
-
