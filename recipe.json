@@ -1,29 +1,58 @@
-
-{"lussekatter":
-[
-    {"ingredient": "jäst", "baseAmount": 50, "unit": "g"},
-    {"ingredient": "standardmjölk", "baseAmount": 5, "unit": "dl"},
-    {"ingredient": "majonnäs", "baseAmount": 200, "unit": "g"},
-    {"ingredient": "saffran", "baseAmount": 1.5, "unit": "g"},
-    {"ingredient": "strösocker", "baseAmount": 2, "unit": "dl"},
-    {"ingredient": "vetemjöl special", "baseAmount": 1, "unit": "kg"},
-    {"ingredient": "ägg", "baseAmount": 1, "unit": "st"},
-    {"ingredient": "russin", "baseAmount": 50, "unit": "g"}
-],
-"lussekatter-description":[
-    "Smula sönder jästen i degbunken.",
-    "Värm mjölken till 37 grader C, och häll ner saffran. Låt den stå och dra 2 min. Var noga med att vätskan inte blir för varm, jästen dör när det är över 48 grader.",
-    "Häll blandningen över jästen så att den löser sig.",
-    "Tillsätt socker, majonnäs (ger en saftigare deg), och nästan allt mjöl.",
-    "Arbeta degen kraftigt så att den blir blank och smidig och nästan släpper degbunken. För hand tar det ca 10 minuter och i en hushållsassistent ca 5 minuter.",
-    "Strö mjöl över degen. Täck den med bakduk eller plastfolie. Låt den jäsa övertäckt på varm och dragfri plats, till dubbel storlek, ca 40 minuter. Täcker man bunken med plastfolie istället för bakduk bidrar det till att fukten stannar i degen och det jäser bättre.",
-    "Sätt ugnen på 250 grader om du ska baka bullar och 225 grader om du gör längder.",
-    "Ta upp degen på mjölat bakduk och knåda degen smidig.Baka ut till lussekatter, traditionella julbröd, längder eller kransar.",
-    "Lägg det utbakade brödet på plåtar med bakplåtspapper. Lägg på bakduk och låt brödet jäsa 20-40 minuter. Pensla med ägg och garnera med russin eller pärlsocker och hackad mandel om du gör längder.",
-    "Grädda bullarna i mitten av ugnen 5-8 minuter. Kransar eller längder gräddas 15-20 minuter."
-
-],
-
+{
+    "recipes":[
+       {
+          "recipeName":"lussekatter",
+          "portions":24,
+          "ingredients":[
+             {"name":"jäst","baseAmount":50,"unit":"g"},
+             {"name":"standardmjölk","baseAmount":5,"unit":"dl"},
+             {"name":"majonnäs","baseAmount":200,"unit":"g"},
+             {"name":"saffran","baseAmount":1.5,"unit":"g"},
+             {"name":"strösocker","baseAmount":2,"unit":"dl"},
+             {"name":"vetemjöl special","baseAmount":1,"unit":"kg"},
+             {"name":"ägg","baseAmount":1,"unit":"st"},
+             {"name":"russin","baseAmount":50,"unit":"g"}
+          ],
+          "instructions":[
+             "Smula sönder jästen i degbunken.",
+             "Värm mjölken till 37 grader C, och häll ner saffran. Låt den stå och dra 2 min. Var noga med att vätskan inte blir för varm, jästen dör när det är över 48 grader.",
+             "Häll blandningen över jästen så att den löser sig.",
+             "Tillsätt socker, majonnäs (ger en saftigare deg), och nästan allt mjöl.",
+             "Arbeta degen kraftigt så att den blir blank och smidig och nästan släpper degbunken. För hand tar det ca 10 minuter och i en hushållsassistent ca 5 minuter.",
+             "Strö mjöl över degen. Täck den med bakduk eller plastfolie. Låt den jäsa övertäckt på varm och dragfri plats, till dubbel storlek, ca 40 minuter. Täcker man bunken med plastfolie istället för bakduk bidrar det till att fukten stannar i degen och det jäser bättre.",
+             "Sätt ugnen på 250 grader om du ska baka bullar och 225 grader om du gör längder.",
+             "Ta upp degen på mjölat bakduk och knåda degen smidig.Baka ut till lussekatter, traditionella julbröd, längder eller kransar.",
+             "Lägg det utbakade brödet på plåtar med bakplåtspapper. Lägg på bakduk och låt brödet jäsa 20-40 minuter. Pensla med ägg och garnera med russin eller pärlsocker och hackad mandel om du gör längder.",
+             "Grädda bullarna i mitten av ugnen 5-8 minuter. Kransar eller längder gräddas 15-20 minuter."
+          ]
+       },
+       {
+          "recipeName":"Kladdkakacookies",
+          "portions":24,
+          "ingredients":[
+             {"name":"Smör","baseAmount":75,"unit":"g"},
+             {"name":"Mörk_choklad","baseAmount":150,"unit":"g"},
+             {"name":"Strösocker","baseAmount":1.75,"unit":"dl"},
+             {"name":"Kakao","baseAmount":2,"unit":"msk"},
+             {"name":"Bakpulver","baseAmount":1,"unit":"tsk"},
+             {"name":"Vaniljsöcker","baseAmount":1.5,"unit":"tsk"},
+             {"name":"Salt","baseAmount":1,"unit":"krm"},
+             {"name":"Vetemjöl","baseAmount":2,"unit":"dl"}
+          ],
+          "instructions":[
+             "175 °C i mitten av ugnen i ca 12-13 minuter med över- och undervärme",
+             "Smält smör i en kastrull på svag värme.",
+             "Ta bort från värmen och lägg i chokladen (gärna i mindre bitar) och rör då och då så att chokladen smälter. Rör till en jämn och fin chokladsmet.",
+             "Låt stå och svalna.",
+             "Knäck äggen i en bunke och tillsätt strösocker. Vispa med elvisp till en ljus och fluffig smet.",
+             "Tillsätt kakao, bakpulver, vaniljsocker och salt. Vispa till en jämn smet.",
+             "Klicka ut smeten på bakplåtspapper. (Låt smeten stå en liten stund och svälla om den skulle vara för lös. Tänk på att ha ganska mycket avstånd mellan eftersom kakorna flyter ut.)",
+             "Grädda kladdkakecookies mitt i ugnen i 175°C i ca 12-13 minuter. (Vill man ha kladdigare kakor kan tiden i ugnen kortas.)",
+             "Låt kakorna svalna på plåten."
+          ]
+       }
+    ]
+ },
     "silviakaka": 
         {
             "vaniljkaka": [
