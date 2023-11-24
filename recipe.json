@@ -50,72 +50,76 @@
              "Grädda kladdkakecookies mitt i ugnen i 175°C i ca 12-13 minuter. (Vill man ha kladdigare kakor kan tiden i ugnen kortas.)",
              "Låt kakorna svalna på plåten."
           ]
-       }
-    ]
- },
-    "silviakaka": 
-        {
-            "vaniljkaka": [
+       },
+       {"recipeName": "silviakaka",
+    "portions": 24,
+    "ingredients":[
                 {
-                    "ingridient": "Ägg",
+                    "name": "Ägg",
                     "baseAmount": 4,
                     "unit": "st"
                 },
                 {
-                    "ingridient": "Strösocker",
+                    "name": "Strösocker",
                     "baseAmount": 4,
                     "unit": "dl"
                 },
                 {
-                    "ingridient": "Vetemjöl",
+                    "name": "Vetemjöl",
                     "baseAmount": 4,
                     "unit": "dl"
                 },
                 {
-                    "ingridient": "Bakpulver",
+                    "name": "Bakpulver",
                     "baseAmount": 1,
                     "unit": "msk"
                 },
                 {
-                    "ingridient": "Vaniljsocker",
+                    "name": "Vaniljsocker",
                     "baseAmount": 1,
                     "unit": "msk"
                 },
                 {
-                    "ingridient": "Kokhett vatten",
+                    "name": "Kokhett vatten",
                     "baseAmount": 2,
                     "unit": "dl"
-                }
-            ],
-           "glasyr": [
+                },
                 {
-                    "ingridient": "Smör",
+                    "name": "Smör",
                     "baseAmount": 200,
                     "unit": "g"
                 },
                 {
-                    "ingridient": "Florsocker",
+                    "name": "Florsocker",
                     "baseAmount": 3,
                     "unit": "dl"
                 },
                 {
-                    "ingridient": "Vaniljsocker",
+                    "name": "Vaniljsocker",
                     "baseAmount": 1,
                     "unit": "msk"
                 },
                 {
-                    "ingridient": "Äggulor",
+                    "name": "Äggulor",
                     "baseAmount": 3,
                     "unit": "st"
                 },
                 {
-                   "ingridient": "Kokosflingor (för garnering)",
+                   "name": "Kokosflingor (för garnering)",
                     "baseAmount": 0.5,
                     "unit": "dl"
                 }
-            ], "steps": [
-                "Sätt ugnen på 175 grader (över- och undervärme) och täck din långpanna med bakplåtspapper.", "Börja med att göra kakan. Vispa ägg och strösocker riktigt vitt och pösigt med elvisp i en bunke.", "Sikta ner vetemjöl, bakpulver och vaniljsocker. Vänd försiktigt ihop till en jämn smet med slickepott.", "Tillsätt det varma vattnet och vänd försiktigt ihop till en jämn smet.", "Häll upp smeten i formen och grädda kakan i nedre delen av ugnen i ca 30 minuter eller tills en sticka kommer ut torr från kakan. Låt kakan svalna helt och hållet innan du toppar med glasyr.", "För att göra glasyren så smälter du smöret i en kastrull. Ha sedan ner florsocker och vaniljsocker. Blanda ihop och låt puttra på låg värme i en minut.", "Låt glasyren svalna innan du häller den på kakan. När glasyren på kakan börjat stelna lite kan du garnera med kokosflingor.", "Servera direkt och njut eller förvara i lufttät burk eller inplastad i kylskåpet."
+            ],
+            "instructions":[
+                "Sätt ugnen på 175 grader (över- och undervärme) och täck din långpanna med bakplåtspapper.",
+                "Börja med att göra kakan. Vispa ägg och strösocker riktigt vitt och pösigt med elvisp i en bunke.",
+                "Sikta ner vetemjöl, bakpulver och vaniljsocker. Vänd försiktigt ihop till en jämn smet med slickepott.",
+                "Tillsätt det varma vattnet och vänd försiktigt ihop till en jämn smet.",
+                "Häll upp smeten i formen och grädda kakan i nedre delen av ugnen i ca 30 minuter eller tills en sticka kommer ut torr från kakan. Låt kakan svalna helt och hållet innan du toppar med glasyr.",
+                "För att göra glasyren så smälter du smöret i en kastrull. Ha sedan ner florsocker och vaniljsocker. Blanda ihop och låt puttra på låg värme i en minut.",
+                "Låt glasyren svalna innan du häller den på kakan. När glasyren på kakan börjat stelna lite kan du garnera med kokosflingor.",
+                "Servera direkt och njut eller förvara i lufttät burk eller inplastad i kylskåpet."
             ]
-           
         }
-}
+    ]
+ }
