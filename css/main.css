@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 :root {
@@ -12,12 +13,26 @@ body {
     /* background-color: var(--main--color); */
 }
 
+header {
+    background: linear-gradient(to bottom, var(--main--color) 40%, #fff);
+    padding: 3rem 0;
+    font-size: 4rem;
+    text-align: center;
+}
+
 h1 {
     color: var(--text--color);
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
 .btn {
     color: var(--text--color);
+    font-weight: bolder;
     text-transform: uppercase;
     background-color: var(--detail--color);
     border: none;
