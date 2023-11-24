@@ -72,9 +72,12 @@ nav .btn {
 .portoins-container {
     font-size: 2rem;
 }
-
 .portoins-container p {
-    vertical-align: middle;
+    align-items: center;
+}
+
+input[type="number"]{
+    font-size: 1.5rem;
 }
 
 #portion-count {
