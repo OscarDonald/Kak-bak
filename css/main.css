@@ -2,6 +2,32 @@
     box-sizing: border-box;
 }
 
-.kak-btn {
-    
+:root {
+    --main--color: #bc6c25;
+    --text--color: #fefae0;
+    --detail--color: #55dde0;
+}
+
+body {
+    /* background-color: var(--main--color); */
+}
+
+h1 {
+    color: var(--text--color);
+}
+
+.btn {
+    color: var(--text--color);
+    text-transform: uppercase;
+    background-color: var(--detail--color);
+    border: none;
+    border-radius: 3px;
+    padding: 3px 7px;
+    box-shadow: 1px 1px 3px lightblue;
+    transition: 1s;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
 }
