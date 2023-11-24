@@ -11,7 +11,7 @@ async function getRecipes(index) {
 function showRecipes(recipeIndex, recipes) {
     const name = recipes.recipes[recipeIndex];
     console.log(name);
-    const result = `<h3>${name.recipeName}</h3>git 
+    const result = `<h3>${name.recipeName}</h3>
     <h4>antal bitar  ${name.portions} st</h4>
     <ul>
         <li>${name.ingredients[0].name} ${name.ingredients[0].baseAmount}${name.ingredients[0].unit}</li>
