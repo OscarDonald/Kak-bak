@@ -3,6 +3,9 @@ const main = document.querySelector('main');
 
 const functions = [kladdkaka(), lussekatt(), silviakaka()];
 
+
+/*
+
 recipeBtn.forEach(button => {
     console.log(button)
     button.addEventListener('click', function (event) {
@@ -18,7 +21,7 @@ recipeBtn.forEach(button => {
 
 functions();
 
-/*
+
 
 main.addEventListener('click', function () {
     mainContent.innerHTML = '';
