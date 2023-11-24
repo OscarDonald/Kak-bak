@@ -12,7 +12,7 @@ async function getRecipes() {
 getRecipes();
 
 function showRecipes(recipeIndex, recipes){
-    const name = recipes.recipeIndex;
+    const name = recipes.recipeIndex.recipeName;
     console.log();
     
 }
