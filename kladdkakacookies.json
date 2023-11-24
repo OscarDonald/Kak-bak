@@ -10,7 +10,7 @@
     {"name": "Salt", "baseAmount": 1, "unit": "krm"},
     {"name": "Vetemjöl", "baseAmount": 2, "unit": "dl"}
 ],
-"intructions":[
+"instructions":[
     "175 °C i mitten av ugnen i ca 12-13 minuter med över- och undervärme",
     "Smält smör i en kastrull på svag värme.",
     "Ta bort från värmen och lägg i chokladen (gärna i mindre bitar) och rör då och då så att chokladen smälter. Rör till en jämn och fin chokladsmet.",
