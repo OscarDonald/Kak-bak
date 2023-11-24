@@ -1,11 +1,16 @@
-const navDiv = document.querySelector('nav-div');
+const recipeBtn = document.querySelectorAll('recipe-btn');
 const main = document.querySelector('main');
 
 
-navDiv.addEventListener('click', function () {
-    mainContent.innerHTML = '';
-    navDiv();
-});
+recipeBtn.forEach(button => {
+    button.addEventListener('click', function (event) {
+        const recipe = event.target;
+        main.innerHTML = '';
+        button();
+    });
+
+})
+
 
 main.addEventListener('click', function () {
     mainContent.innerHTML = '';
