@@ -1,7 +1,7 @@
 const recipeBtn = document.querySelectorAll('recipe-btn');
 const main = document.querySelector('main');
 
-const functions = [kladdkaka(), lussekatt(), silviakaka()]
+const functions = [kladdkaka(), lussekatt(), silviakaka()];
 
 recipeBtn.forEach(button => {
     console.log(button)
@@ -9,12 +9,19 @@ recipeBtn.forEach(button => {
         const recipe = event.target;
         main.innerHTML = '';
         button();
+        console.log(event.target)
     });
 
 })
 
 
+
+functions();
+
+/*
+
 main.addEventListener('click', function () {
     mainContent.innerHTML = '';
     main();
 });
+*/
