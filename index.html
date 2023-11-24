@@ -4,20 +4,38 @@
 <head>
   <title>Receptsamlingen</title>
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@400;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="main">
-    <h1>Välkommen till Receptsamlingen!</h1>
-    <!-- Lägg eventuellt till fler knappar för andra recept här -->
-  
-    <p><strong>Portioner:</strong> <input type="number" id="portion-count" value="1" min="1"></p>
-    <button id="update-portions">Uppdatera portioner</button>
-  
-    <div id="recipe-container"></div>
-  </div>
+  <header>
+    <h1>KAK & BAK</h1>
+  </header>
+  <div class="nav-div">
+    <nav class="flex">
+      <button class="recipe-btn btn">Smör</button>
+      <button class="recipe-btn btn">Smör</button>
+      <button class="recipe-btn btn">Smör</button>
+      <button class="recipe-btn btn">Smör</button>
+      <button class="recipe-btn btn">Smör</button>
+      <button class="recipe-btn btn">Smör</button>
 
+      <!-- Lägg eventuellt till fler knappar för andra recept här -->
+    </nav>
+  </div>
+  <main>
+      <h2>Välkommen till Receptsamlingen!</h2>
+      <div class="flex portoins-container">
+        <p><strong>Portioner:</strong> <input type="number" id="portion-count" value="1" min="1"></p>
+        <button class="btn" id="update-portions">Uppdatera portioner</button>
+      </div>
+      <div id="recipe-container"></div>
+  </main>
   <script src="./js/main.js"></script>
 </body>
 
 </html>
+
+<!--  -->

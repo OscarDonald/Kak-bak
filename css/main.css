@@ -1,7 +1,74 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
-.kak-btn {
-    
+:root {
+    --main--color: #bc6c25;
+    --text--color: #fefae0;
+    --detail--color: #55dde0;
+}
+
+body {
+    /* background-color: var(--main--color); */
+}
+
+header {
+    background: linear-gradient(to bottom, var(--main--color) 40%, #fff);
+    padding: 3rem 0;
+    font-size: 4rem;
+    text-align: center;
+}
+
+h1 {
+    color: var(--text--color);
+    font-family: 'Playfair Display', serif;
+}
+
+main {
+    margin: 2rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav .btn {
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+}
+
+.btn {
+    color: var(--text--color);
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: var(--detail--color);
+    border: none;
+    border-radius: 3px;
+    padding: 3px 7px;
+    box-shadow: 1px 1px 3px lightblue;
+    transition: 1s;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.portoins-container {
+    font-size: 2rem;
+}
+
+#recipe-container {
+    margin: 2rem auto;
 }
