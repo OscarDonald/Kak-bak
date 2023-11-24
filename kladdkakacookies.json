@@ -1,26 +1,26 @@
-{"recipeName": "Kladdkakacookies",
-"portions": 24,
-"ingredients":[
-    {"name": "Smör", "baseAmount": 75, "unit": "g"},
-    {"name": "Mörk_choklad", "baseAmount": 150, "unit": "g"},
-    {"name": "Strösocker", "baseAmount": 1.75, "unit": "dl"},
-    {"name": "Kakao", "baseAmount": 2, "unit": "msk"},
-    {"name": "Bakpulver", "baseAmount": 1, "unit": "tsk"},
-    {"name": "Vaniljsöcker", "baseAmount": 1.5, "unit": "tsk"},
-    {"name": "Salt", "baseAmount": 1, "unit": "krm"},
-    {"name": "Vetemjöl", "baseAmount": 2, "unit": "dl"}
-],
+{
+  "recipeName": "Kladdkakacookies",
+  "portions": 24,
+  "ingredients": [
+    { "name": "Smör", "baseAmount": 75, "unit": "g" },
+    { "name": "Mörk_choklad", "baseAmount": 150, "unit": "g" },
+    { "name": "Strösocker", "baseAmount": 1.75, "unit": "dl" },
+    { "name": "Kakao", "baseAmount": 2, "unit": "msk" },
+    { "name": "Bakpulver", "baseAmount": 1, "unit": "tsk" },
+    { "name": "Vaniljsöcker", "baseAmount": 1.5, "unit": "tsk" },
+    { "name": "Salt", "baseAmount": 1, "unit": "krm" },
+    { "name": "Vetemjöl", "baseAmount": 2, "unit": "dl" }
+  ],
 
-"intructions":[
+  "intructions": [
     "175 °C i mitten av ugnen i ca 12-13 minuter med över- och undervärme",
     "Smält smör i en kastrull på svag värme.",
     "Ta bort från värmen och lägg i chokladen (gärna i mindre bitar) och rör då och då så att chokladen smälter. Rör till en jämn och fin chokladsmet.",
     "Låt stå och svalna.",
     "Knäck äggen i en bunke och tillsätt strösocker. Vispa med elvisp till en ljus och fluffig smet.",
     "Tillsätt kakao, bakpulver, vaniljsocker och salt. Vispa till en jämn smet.",
-    "Tillsätt kakao, bakpulver, vaniljsocker och salt. Vispa till en jämn smet.",
     "Klicka ut smeten på bakplåtspapper.(Låt smeten stå en liten stund och svälla om den skulle vara för lös. Tänk på att ha ganska mycket avstånd mellan eftersom kakorna flyter ut.)",
     "Grädda kladdkakecookies mitt i ugnen i 175°C i ca 12-13 minuter. (Vill man ha kladdigare kakor kan tiden i ugnen kortas.)",
     "Låt kakorna svalna på plåten."
-]
+  ]
 }
