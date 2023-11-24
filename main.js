@@ -3,57 +3,25 @@ const lussekatt = document.getElementById('lussekatt');
 const silviakaka = document.getElementById('silviakaka');
 const recipeContainer = document.getElementById('recipe-container');
 
-
-
-
 kladdkaka.addEventListener('click', function () {
-    recipeContainer.innerHTML = '';  
-    recipeContainer.innerHTML = getRecipes(1);
-    
-    
+    recipeContainer.innerHTML = '';
+    getRecipes(1);
 });
+
 lussekatt.addEventListener('click', function () {
     recipeContainer.innerHTML = '';
-    recipeContainer.innerHTML = getRecipes(0);
+    getRecipes(0);
 });
 
 silviakaka.addEventListener('click', function () {
     recipeContainer.innerHTML = '';
-    recipeContainer.innerHTML = getRecipes(2);
+    getRecipes(2);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //const main = document.querySelector('main');
 //const functions = [kladdkaka(), lussekatt(), silviakaka()];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
-
 recipeBtn.forEach(button => {
     console.log(button)
     button.addEventListener('click', function (event) {
@@ -64,12 +32,6 @@ recipeBtn.forEach(button => {
     });
 
 })
-
-
-
-functions();
-
-
 
 main.addEventListener('click', function () {
     mainContent.innerHTML = '';
